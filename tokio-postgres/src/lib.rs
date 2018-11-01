@@ -69,6 +69,7 @@ pub fn connect(params: ConnectParams, tls: TlsMode) -> Handshake {
     Handshake(proto::HandshakeFuture::new(params, tls))
 }
 
+#[derive(Clone)]
 pub struct Client(proto::Client);
 
 impl Client {
