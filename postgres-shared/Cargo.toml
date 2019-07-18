@@ -12,7 +12,7 @@ repository = "https://github.com/sfackler/rust-postgres"
 "with-eui48-0.3" = ["eui48"]
 "with-geo-0.10" = ["geo"]
 with-serde_json-1 = ["serde", "serde_json"]
-"with-uuid-0.6" = ["uuid"]
+"with-uuid-0.7" = ["uuid"]
 
 [dependencies]
 hex = "0.3"
@@ -26,4 +26,4 @@ eui48 = { version = "0.3", optional = true }
 geo = { version = "0.10", optional = true }
 serde = { version = "1.0", optional = true }
 serde_json = { version = "1.0", optional = true }
-uuid = { version = "0.6", optional = true }
+uuid = { version = "0.7", optional = true }

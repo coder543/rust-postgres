@@ -81,7 +81,7 @@ mod eui48;
 mod geo;
 #[cfg(feature = "with-serde_json-1")]
 mod serde_json;
-#[cfg(feature = "with-uuid-0.6")]
+#[cfg(feature = "with-uuid-0.7")]
 mod uuid;
 
 mod special;
